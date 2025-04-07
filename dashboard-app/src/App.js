@@ -1,15 +1,21 @@
-import {HashRouter,Routes,Route} from "react-router-dom";
-import Home from "./components/Home";
-import './App.css';
-
+import Home from "./components/Home"
+//import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {HashRouter, Routes, Route} from "react-router-dom"
+import ContactUS from "./components/ContactUs"
+import NavBar from "./components/NavBar";
+import "./App.css"
 function App() {
+
   return (
     <>
-   <HashRouter>
-    <Routes>
-      <Route path="/" element={<Home/>}/>
+<HashRouter> 
+    <NavBar/>        
+      <Routes>      
+        <Route path="/" element={<Home/>}/>
+        <Route path="/ContactUs" element={<ContactUS/>}/>
       </Routes>
-      </HashRouter>
+    </HashRouter>   
+  
     </>
   );
 }
