@@ -9,6 +9,7 @@ function LogIn() {
       <form>
         <label>UserName:</label><input type="text" placeholder="Enter Username" maxLength={25}></input>
         <label>Password:</label><input type="text" placeholder="Enter PassWord" maxLength={25}></input>
+        <p></p>
         <button>Submit</button>
       </form>
        
