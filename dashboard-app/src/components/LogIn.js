@@ -12,7 +12,8 @@ function LogIn() {
         <p></p>
         <button>Submit</button>
       </form>
-       
+      <p></p>
+       <p>Register</p>
       
         </>
     )
