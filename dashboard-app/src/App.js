@@ -1,4 +1,5 @@
-import 
+import Home from "./components/Home"
+import {HashRouter, Routes, Route} from "react-router-dom"
 
 
 function App() {
