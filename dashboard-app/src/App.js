@@ -5,8 +5,7 @@ import './App.css';
 function App() {
   return (
     <>
-     <HashRouter> 
-    <NavBar/>        
+     <HashRouter>       
       <Routes>      
         <Route path="/" element={<Home/>}/>
         <Route path="/ContactUs" element={<ContactUS/>}/>
