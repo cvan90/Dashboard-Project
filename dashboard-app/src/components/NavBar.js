@@ -5,7 +5,7 @@ function NavBar(){
         <>
         <nav>
             <Link to="/">Home</Link>{" | "}
-    
+            <link to="/Dashboard">Dashboard</link>
         </nav>
         </>
     );
