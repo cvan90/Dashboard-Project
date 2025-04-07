@@ -8,10 +8,10 @@ function Home(){
           </p>
         <p></p>
         <p>
-          Login
+        <Link to="/LogIn">Login</Link>
         </p>
         <p>
-          Register
+        <Link to="/Register">Register</Link>
         </p>
         </>
       );
