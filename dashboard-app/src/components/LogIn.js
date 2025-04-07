@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom";
 function LogIn() {
 
     return (
@@ -13,7 +13,7 @@ function LogIn() {
         <button>Submit</button>
       </form>
       <p></p>
-       <p>Register</p>
+       <p><Link to="/Register">Register</Link></p>
       
         </>
     )
