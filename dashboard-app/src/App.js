@@ -5,12 +5,9 @@ import './App.css';
 function App() {
   return (
     <>
-     <HashRouter>       
-      <Routes>      
-        <Route path="/" element={<Home/>}/>
-        <Route path="/ContactUs" element={<ContactUS/>}/>
-      </Routes>
-    </HashRouter>   
+  <div>
+    <p>Testing on Local</p>
+  </div>
     </>
   );
 }
