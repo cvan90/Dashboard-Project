@@ -8,9 +8,9 @@ function Register() {
       </div>
       <form>
         <label>UserName:</label><input type="text" placeholder="Enter Username" maxLength={25}></input><br/>
-        <label>Password:</label><input type="text" placeholder="Enter PassWord" maxLength={25}></input>
+        <label>Password:</label><input type="text" placeholder="Enter PassWord" maxLength={25}></input><br/>
         <p></p>
-        <input type="checkbox">Terms and Services</input>
+        <input type="checkbox"/>Terms and Services
         <p></p>
         <button>Submit</button>
       </form>
