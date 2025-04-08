@@ -3,9 +3,11 @@ function Dashboard(){
       return (
     
         <>
+        <nav>
+        <Link to="/LogIn">Logout</Link>
+        </nav>
         <p>
           <h2>Dashboard</h2>
-          <Link to="/LogIn">Logout</Link>
           </p>
         <p></p>
         <table>
