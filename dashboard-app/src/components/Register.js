@@ -9,6 +9,7 @@ function Register() {
       <form>
         <label>UserName:</label><input type="text" placeholder="Enter Username" maxLength={25}></input><br/>
         <label>Password:</label><input type="text" placeholder="Enter PassWord" maxLength={25}></input><br/>
+        <label>Confirm Password:</label><input type="text" placeholder="Please Confirm PassWord" maxLength={25}></input>
         <p></p>
         <input type="checkbox"/>Terms and Services
         <p></p>
