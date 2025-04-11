@@ -24,14 +24,14 @@ function LogIn()
 
   if(_uid === null || _uid.trim().length === 0)
     {
-        _msg = "Invalid username Submitted";                
+        _msg = "Invalid UserName Submitted";                
         setMsg(_msg)                
         return false;
     }
     
     if(_pwd === null || _pwd.trim().length === 0)
     {
-        _msg = "invalid password Submitted";                
+        _msg = "Invalid Password Submitted";                
         setMsg(_msg)                
         return false;
     }
@@ -42,7 +42,7 @@ function LogIn()
         
         if(data.login === true)
         {
-            console.log("navigate to dashboard")
+            console.log("Navigate to Dashboard")
             navigate("/dashboard")
             //navigate("/dashboard",{replace:true})
         }
