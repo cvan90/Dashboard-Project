@@ -3,9 +3,8 @@ function Home(){
       return (
     
         <>
-        <p>
-          <h2>Welcome Please Login/Register Below</h2>
-          </p>
+         <h2>Welcome Please Login/Register Below</h2>
+        
         <p></p>
         <p>
         <Link to="/LogIn">Login</Link>

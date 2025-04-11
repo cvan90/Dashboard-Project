@@ -6,9 +6,8 @@ function Dashboard(){
         <nav>
         <Link to="/LogIn">Logout</Link>
         </nav>
-        <p>
           <h2>Dashboard</h2>
-          </p>
+         
         <p></p>
         <table>
           <tr>
