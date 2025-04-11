@@ -64,7 +64,7 @@ function LogIn()
       </div>
       <form>
         <label>UserName:</label><input ref={usernamesubmit} type="text" placeholder="Enter Username" maxLength={25}></input><br/>
-        <label>Password:</label><input ref={userpasssubmit} type="text" placeholder="Enter PassWord" maxLength={25}></input>
+        <label>Password:</label><input ref={userpasssubmit} type="password" placeholder="Enter PassWord" maxLength={25}></input>
         <p></p>
         <p>{msgText}</p>
 
