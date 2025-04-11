@@ -20,7 +20,7 @@ function LogIn()
   const _uid =usernamesubmit.current.value
   const _pwd = userpasssubmit.current.value
 
-  const _url = `https://${_replit_url}/login/${_uid}/${_pwd}`; 
+  const _url = `${_replit_url}/login/${_uid}/${_pwd}`; 
 
   if(_uid === null || _uid.trim().length === 0)
     {
