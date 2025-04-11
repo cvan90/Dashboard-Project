@@ -1,15 +1,17 @@
 import {Link} from "react-router-dom";
-import {useRef} from "react";
+import {useRef, useState} from "react";
 function LogIn()
  {
   const usernamesubmit=useRef("")
   const userpasssubmit=useRef("")
+  const [msgText, setMsg]=useState("")
 
   const loginsubmit=(e)=>{
 
   e.preventDefault()
 
   console.log("Login Submitted")
+  console.log(`username:${usernamesubmit.current.value} password: ${userpasssubmit.current.value}`)
 
 }
     return (
