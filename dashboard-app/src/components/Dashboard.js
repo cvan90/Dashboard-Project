@@ -3,31 +3,39 @@ function Dashboard(){
       return (
     
         <>
-        <nav>
-        <Link to="/LogIn">Logout</Link>
-        </nav>
-          <h2>Dashboard</h2>
-         
         <p></p>
-        <table>
-          <tr>
-            <td>
-              <p>Category 1</p>
-              <p>Category 1</p>
-              <p>Category 1</p>
-              <p>Category 1</p>
-            </td>
-            <td>
-              <p>Category 2</p>
-            </td>
-            <td>
-              about
-            </td>
-          </tr>
-        </table>
+        <p></p>
+         <div className="app-center-page">
+                <h1>Dashboard</h1>
+                <p></p>
+                <div style={{display:"flex", width:"90%"}}>
+                    <div style={{width:"35%"}}>
+                        <p>Category 1</p>
+                        <p>Category 2</p>
+                        <p>Category 3</p>
+                        <p>Category 4</p>
+                        <p>Category 5</p>
+                        <p>Category 6</p>
+                    </div>                 
+                    <div style={{width:"25%"}}>
+                        <p>Category 1</p>
+                        <p>Category 2</p>
+                        <p>Category 3</p>
+                        <p>Category 4</p>
+                    </div>                    
+                    <div style={{width:"20%"}}>
+                        [about]<br/>
+                        <p></p>
+                        [about]<br/>
+                        <p></p>
+                        [about]<br/>
+                        <p></p>
+                        [about]<br/>
+                    </div>                
+                </div>
         <p></p>
         <span>Footer @ 2025</span>
-       
+       </div>
         </>
       );
     };

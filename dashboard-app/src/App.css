@@ -43,7 +43,8 @@
   align-items: center;
 }
 .navbar{
-  text-align: center;
+  display: flex;
+  align-items: center;
   font-size: x-large;
- 
+ justify-content: center;
 }
