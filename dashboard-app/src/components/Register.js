@@ -30,28 +30,28 @@ function Register() {
 
       if(_uid === null || _uid.trim().length === 0)
       {
-          _msg = "invalid username";                
+          _msg = "invalid Username";                
           setMsg(_msg)                
           return false;
       }
       
       if(_pwd === null || _pwd.trim().length === 0)
       {
-          _msg = " * invalid password";                
+          _msg = " invalid Password";                
           setMsg(_msg)                
           return false;
       }
           
       if(_pwd !== _confirmpwd)
       {
-          _msg = " confirm password does not match password";
+          _msg = "confirm password does not match password";
           setMsg(_msg)                
           return false;
       }
          
       if(_chkterm === false)
       {
-          _msg = " please select terms/services";
+          _msg = "Please select terms/services";
           setMsg(_msg)                
           return false;
       }
