@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import {Link,useNavigate} from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
 
 
@@ -92,7 +92,7 @@ function Register() {
       <form onSubmit={(e)=>handleSubmit(e)}>
         <label>UserName:</label><input ref={txtusername} type="text" placeholder="Enter Username" maxLength={25}></input><br/>
         <label>Password:</label><input ref={txtpassword} type="password" placeholder="Enter PassWord" maxLength={25}></input><br/>
-        <label>Confirm Password:</label><input ref={txtconfirmpassword} type="text" placeholder=" Confirm PassWord" maxLength={25}></input>
+        <label>Confirm Password:</label><input ref={txtconfirmpassword} type="password" placeholder=" Confirm PassWord" maxLength={25}></input>
         <p></p>
         <input type="checkbox" ref={chkterm}/>Terms and Services
         <p></p>
